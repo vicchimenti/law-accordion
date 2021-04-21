@@ -1,0 +1,94 @@
+<div class="accordionWrapper noGap contentItem col-xs-12" data-position-default="Main" data-position-selected="<t4 type='content' name='Zone Option' output='normal' display_field='value' />" id='id<t4 type="meta" meta="content_id" />'role="tablist" aria-multiselectable="true">
+    <t4 type="meta" meta="html_anchor" />
+
+    <t4 type="content" name="Accordion Title" output="selective-output" modifiers="" format='<h2 class="accordionTitle standardContent">$value</h2>'/>
+  
+
+<t4 type="content" name="Accordion Description" output="selective-output" modifiers="medialibrary,nav_sections" process-format="true" format='<div class="accordionDescription">$value</div>' />  
+  
+ 
+
+    <dl role="presentation" class="accordionItemList">
+
+        <div class="accordionItem">
+            <dt class="accordionItemHeader" tabindex="0" role="heading" id="heading1<t4 type='meta' meta='content_id' />">
+                <a class="accordionItemHeaderButton" tabindex="-1" role="button" data-toggle="collapse" data-parent='#id<t4 type="meta" meta="content_id" />'
+                    href="#collapse1<t4 type='meta' meta='content_id' />" aria-expanded="false" aria-controls="collapse1<t4 type='meta' meta='content_id' />">
+                    <h3 class="accordionItemHeaderButtonTitle">
+                        <t4 type="content" name="First Item Title" output="normal" modifiers="striptags,htmlentities" /><i class="fas fa-angle-down"></i>
+                    </h3>
+                </a>
+            </dt>
+            <dd id="collapse1<t4 type='meta' meta='content_id' />" class="accordionItemContentWrapper collapse" role="region" aria-labelledby="heading1<t4 type='meta' meta='content_id' />">
+
+                <div class="accordionItemInfo standardContent">
+                    <t4 type="content" name="First Item Body" output="normal" modifiers="medialibrary,nav_sections" />
+                </div>
+
+            </dd>
+        </div>
+
+        <t4 type='content' name='Second Item Title' output='selective-output' process-format='true' format=
+            "<div class=&quot;accordionItem&quot;>
+                <dt class=&quot;accordionItemHeader&quot; tabindex=&quot;0&quot; role=&quot;heading&quot; id=&quot;heading2<t4 type='meta' meta='content_id'/>&quot;>
+                    <a class=&quot;accordionItemHeaderButton&quot; tabindex=&quot;-1&quot; role=&quot;button&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#id<t4 type='meta' meta='content_id'/>&quot; href=&quot;#collapse2<t4 type='meta' meta='content_id'/>&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapse2<t4 type='meta' meta='content_id'/>&quot;>
+                        <h3 class=&quot;accordionItemHeaderButtonTitle&quot;>$value <i class=&quot;fas fa-angle-down&quot;></i></h3>
+                    </a>
+                </dt>
+                <dd id=&quot;collapse2<t4 type='meta' meta='content_id'/>&quot; class=&quot;accordionItemContentWrapper collapse&quot; role=&quot;region&quot; aria-labelledby=&quot;heading2<t4 type='meta' meta='content_id'/>&quot;>
+                    <div class=&quot;accordionItemInfo standardContent&quot;>
+                        <t4 type=&quot;content&quot; name=&quot;Second Item Body&quot; output=&quot;normal&quot; modifiers=&quot;medialibrary,nav_sections&quot; />
+                    </div>
+                </dd>
+            </div>"
+        />
+
+        <t4 type='content' name='Third Item Title' output='selective-output' process-format='true' format=
+            "<div class=&quot;accordionItem&quot;>
+                <dt class=&quot;accordionItemHeader&quot; tabindex=&quot;0&quot; role=&quot;heading&quot; id=&quot;heading3<t4 type='meta' meta='content_id'/>&quot;>
+                    <a class=&quot;accordionItemHeaderButton&quot; tabindex=&quot;-1&quot; role=&quot;button&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#id<t4 type='meta' meta='content_id'/>&quot; href=&quot;#collapse3<t4 type='meta' meta='content_id'/>&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapse3<t4 type='meta' meta='content_id'/>&quot;>
+                        <h3 class=&quot;accordionItemHeaderButtonTitle&quot;>$value <i class=&quot;fas fa-angle-down&quot;></i></h3>
+                    </a>
+                </dt>
+                <dd id=&quot;collapse3<t4 type='meta' meta='content_id'/>&quot; class=&quot;accordionItemContentWrapper collapse&quot; role=&quot;region&quot; aria-labelledby=&quot;heading3<t4 type='meta' meta='content_id'/>&quot;>
+                    <div class=&quot;accordionItemInfo standardContent&quot;>
+                        <t4 type=&quot;content&quot; name=&quot;Third Item Body&quot; output=&quot;normal&quot; modifiers=&quot;medialibrary,nav_sections&quot; />
+                    </div>
+                </dd>
+            </div>"
+        />
+
+        <t4 type='content' name='Fourth Item Title' output='selective-output' process-format='true' format=
+            "<div class=&quot;accordionItem&quot;>
+                <dt class=&quot;accordionItemHeader&quot; tabindex=&quot;0&quot; role=&quot;heading&quot; id=&quot;heading4<t4 type='meta' meta='content_id'/>&quot;>
+                    <a class=&quot;accordionItemHeaderButton&quot; tabindex=&quot;-1&quot; role=&quot;button&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#id<t4 type='meta' meta='content_id'/>&quot; href=&quot;#collapse4<t4 type='meta' meta='content_id'/>&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapse4<t4 type='meta' meta='content_id'/>&quot;>
+                        <h3 class=&quot;accordionItemHeaderButtonTitle&quot;>$value <i class=&quot;fas fa-angle-down&quot;></i></h3>
+                    </a>
+                </dt>
+                <dd id=&quot;collapse4<t4 type='meta' meta='content_id'/>&quot; class=&quot;accordionItemContentWrapper collapse&quot; role=&quot;region&quot; aria-labelledby=&quot;heading4<t4 type='meta' meta='content_id'/>&quot;>
+                    <div class=&quot;accordionItemInfo standardContent&quot;>
+                        <t4 type=&quot;content&quot; name=&quot;Fourth Item Body&quot; output=&quot;normal&quot; modifiers=&quot;medialibrary,nav_sections&quot; />
+                    </div>
+                </dd>
+            </div>"
+        />
+
+        <t4 type='content' name='Fifth Item Title' output='selective-output' process-format='true' format=
+            "<div class=&quot;accordionItem&quot;>
+                <dt class=&quot;accordionItemHeader&quot; tabindex=&quot;0&quot; role=&quot;heading&quot; id=&quot;heading5<t4 type='meta' meta='content_id'/>&quot;>
+                    <a class=&quot;accordionItemHeaderButton&quot; tabindex=&quot;-1&quot; role=&quot;button&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#id<t4 type='meta' meta='content_id'/>&quot; href=&quot;#collapse5<t4 type='meta' meta='content_id'/>&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapse5<t4 type='meta' meta='content_id'/>&quot;>
+
+                        <h3 class=&quot;accordionItemHeaderButtonTitle&quot;>$value <i class=&quot;fas fa-angle-down&quot;></i></h3>
+                    </a>
+                </dt>
+                <dd id=&quot;collapse5<t4 type='meta' meta='content_id'/>&quot; class=&quot;accordionItemContentWrapper collapse&quot; role=&quot;region&quot; aria-labelledby=&quot;heading5<t4 type='meta' meta='content_id'/>&quot;>
+                    <div class=&quot;accordionItemInfo standardContent&quot;>
+                        <t4 type=&quot;content&quot; name=&quot;Fifth Item Body&quot; output=&quot;normal&quot; modifiers=&quot;medialibrary,nav_sections&quot; />
+                    </div>
+                </dd>
+            </div>"
+        />
+
+    </dl>
+
+</div>
